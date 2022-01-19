@@ -1,0 +1,37 @@
+$dark-primary: #141231;
+$dark-text: #bebebe;
+$dark-link: #162361;
+$dark-link-hover: #19276d;
+$dark-border: #141933;
+$dark-header-background: #18163b;
+
+/* Import Bootstrap */
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+/* Custom Dark */
+
+.dark {
+    background: $dark-primary;
+    color: $dark-text;
+    a {
+        color: $dark-link;
+    }
+    a:hover {
+        color: $dark-link;
+    }
+    .accordion .accordion-item {
+        background: $dark-primary;
+        border-color: $dark-border;
+        .accordion-header {
+            background: $dark-header-background;
+            .accordion-button {
+                background: inherit;
+                color: inherit;
+                &::after {
+                    color: $dark-text;
+                }
+            }
+        }
+    }
+}

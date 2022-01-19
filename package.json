@@ -1,0 +1,27 @@
+{
+    "name": "bootstrap-dark",
+    "version": "1.0.0",
+    "description": "Bootstrap Dark Mode",
+    "main": "public/index.html",
+    "scripts": {
+        "start": "node-sass --watch src/scss -o dist/css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/daniwebdev/bootstrap-dark.git"
+    },
+    "keywords": [
+        "Bootstrap",
+        "Dark"
+    ],
+    "author": "daniwebdev",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/daniwebdev/bootstrap-dark/issues"
+    },
+    "homepage": "https://github.com/daniwebdev/bootstrap-dark#readme",
+    "dependencies": {
+        "bootstrap": "^5.1.3",
+        "node-sass": "^7.0.1"
+    }
+}
